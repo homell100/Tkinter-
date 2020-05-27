@@ -1,17 +1,3 @@
-"""
-Aspectes a solucionar:
-1. Apareixen multiples finestres quan es grava l'arxiu Excel final i està obert
-2. Hi ha un sleep.time(1) a "Input code" que hauria de mirar com millorar-l'ho
-3. Assegurar-e que numeros grans com 1.000.000 son llegits correctament
-4. Quan la columna dels codis no es diu Codi dona un error que no es interpretable, modificar-lo
-per fer-lo mes comprensible.
-
-Millores:
-1. Casella on poder posar-li nom a l'arxiu Excel de resposta
-2. Casella on es demani on guardar l'arxiu Excel de resposta
-"""
-
-
 import xlrd
 import sys
 import threading
